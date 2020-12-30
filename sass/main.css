@@ -127,6 +127,15 @@ aside img {
           transform: scale(0.75);
 }
 
+.header-events {
+  position: relative;
+  background: black;
+  top: 9rem;
+  border-radius: 15px;
+  color: var(--dark-red);
+  border-radius: 10px 10px;
+}
+
 .header-index {
   background: url(../../images/background_dojo.jpg) no-repeat 50% 50%;
   background-size: cover;
