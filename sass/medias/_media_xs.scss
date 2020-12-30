@@ -1,11 +1,18 @@
-.main-elem {
-  img {
-    transform: scale(0.75);
+// téléphone portable / BOOTSTRAP XS
+@media (max-width: 575px) {
+  html {
+    scroll-padding-top: 18rem;
   }
-}
 
-aside {
-  img {
-    transform: scale(0.75);
+  .main-elem {
+    img {
+      transform: scale(0.75);
+    }
+  }
+
+  aside {
+    img {
+      transform: scale(0.75);
+    }
   }
 }

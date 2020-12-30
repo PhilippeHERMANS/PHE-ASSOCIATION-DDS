@@ -1,0 +1,14 @@
+// pc écrans mini-standar / BOOTSTRAP LG
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    scroll-padding-top: 14rem;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  #footer2 {
+    padding-top: 4rem;
+  }
+}
