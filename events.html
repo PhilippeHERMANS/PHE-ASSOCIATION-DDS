@@ -29,6 +29,88 @@
     />
   </head>
   <body>
+    <!-- ********* MODAL for CONTACT **************-->
+    <div class="modal fade" id="modalContact" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" style="background: #0275d8; color: white">
+            <h4 class="modal-title">Demande de contact</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#" method="POST" style="color: #0275d8">
+              <div>
+                <label for="lastname">Nom :</label><br />
+                <input
+                  type="text"
+                  id="lastname"
+                  name="contact_name"
+                  placeholder="Votre Nom"
+                /><br />
+              </div>
+              <div>
+                <br />
+                <label for="firstname">Prénom :</label><br />
+                <input
+                  type="text"
+                  id="firstname"
+                  name="contact_firstname"
+                  placeholder="Votre Prénom"
+                />
+              </div>
+              <div>
+                <br />
+                <label for="mail">E-Mail :</label><br />
+                <input
+                  type="email"
+                  id="mail"
+                  name="contact_mail"
+                  placeholder="Votre E-Mail"
+                /><br />
+              </div>
+              <div>
+                <br />
+                <label for="tel">Téléphone :</label><br />
+                <input
+                  type="tel"
+                  id="tel"
+                  name="contact_tel"
+                  placeholder="Votre N° de Tél"
+                /><br />
+              </div>
+              <div>
+                <br />
+                <label for="msg">Message</label><br />
+                <textarea
+                  id="msg"
+                  name="contact_message"
+                  placeholder="Votre Message"
+                ></textarea
+                ><br />
+              </div>
+              <button class="btn btn-outline-primary btn-lg" type="reset">
+                Reset
+              </button>
+              <button class="btn btn-primary btn-lg" type="submit">
+                Envoyer
+              </button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-lg btn-secondary"
+              data-dismiss="modal"
+            >
+              Fermer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- ************* FIX NAVBAR ***************  -->
     <div class="container">
       <nav class="navbar fixed-top navbar-expand-xl navbar-dark">

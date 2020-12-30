@@ -126,6 +126,18 @@ img {
   }
 }
 
+#firstname,
+#lastname,
+#mail,
+#tel,
+#msg {
+  width: 90%;
+}
+
+#msg {
+  height: 12vh;
+}
+
 :root {
   --dark-red: #8b0000;
 }
