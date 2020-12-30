@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-item {
+  text-align: center;
+}
+
+img {
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-family: "Playball", cursive, sans-serif;
+}
+
+.element-list {
+  font-family: "Mukta", sans-serif;
+}
+
+.btn-special {
+  color: var(--dark-red);
+  border: 1px solid var(--dark-red);
+  background: black;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.element-menu {
+  color: var(--dark-red);
+}
+
+.element-menu:hover {
+  color: white;
+}
+
+.nav-item-color {
+  color: white;
+}
+
+.nav-item-color:hover {
+  color: var(--dark-red);
+}
+
+.nav-menu-list {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.nav-logo {
+  width: 5rem;
+  height: 4rem;
+  border: 1px solid lightgray;
+}
+
+:root {
+  --dark-red: #8b0000;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+// ********** PAGE REST *********
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// ******** SCROLLING CONFIG ***********
+
+html {
+  scroll-behavior: smooth;
+}
+
+// **********GLOBAL**********
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-item {
+  text-align: center;
+}
+
+img {
+  padding: 10px 0;
+}

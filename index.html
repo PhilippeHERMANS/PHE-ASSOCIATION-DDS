@@ -30,6 +30,131 @@
   </head>
 
   <body>
+    <!-- ************* FIX NAVBAR ***************  -->
+    <div class="container">
+      <nav class="navbar fixed-top navbar-expand-xl navbar-dark">
+        <img
+          class="rounded-circle img-fluid nav-logo"
+          src="./images/Ying Yang Computer.png"
+          alt="photo Ying Yang ordinateur"
+        />
+        <a class="navbar-brand ml-md-2 ml-lg-4 ml-xl-5" href="#"
+          >Association DDS</a
+        >
+        <button
+          class="navbar-toggler border"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropDown"
+          aria-controls="navbarNavDropDown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse navbar-dark justify-content-end"
+          id="navbarNavDropDown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-danger"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                role="button"
+              >
+                <span class="element-menu active">Association</span>
+              </a>
+              <div class="dropdown-menu text-center nav-menu-list border">
+                <a
+                  class="dropdown-item nav-item-color element-list"
+                  href="index.html#link-objectifs"
+                  ><u>Objectifs</u></a
+                >
+                <a
+                  class="dropdown-item nav-item-color element-list"
+                  href="index.html#link-pqDds"
+                  ><u>Pourquoi DDS</u></a
+                >
+                <a
+                  class="dropdown-item nav-item-color element-list"
+                  href="index.html#link-fondateur"
+                  ><u>Fondateur</u></a
+                >
+                <a
+                  class="dropdown-item nav-item-color element-list"
+                  href="index.html#link-equipe"
+                  ><u>L'équipe</u></a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-danger"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                role="button"
+              >
+                <span class="element-menu">Evenements</span>
+              </a>
+              <div class="dropdown-menu text-center nav-menu-list border">
+                <a
+                  class="dropdown-item nav-item-color element-list"
+                  href="events.html#event1"
+                  ><u>Nancy - 09 Janvier 2021</u></a
+                >
+                <a
+                  class="dropdown-item nav-item-color element-list"
+                  href="events.html#event2"
+                  ><u>Paris - 08 Mars 2021</u></a
+                >
+                <a
+                  class="dropdown-item nav-item-color element-list"
+                  href="events.html#event3"
+                  ><u>Angers - 09 Mai 2021</u></a
+                >
+                <a
+                  class="dropdown-item nav-item-color element-list"
+                  href="events.html#event4"
+                  ><u>Lyon - 07 Juin 2021</u></a
+                >
+                <a
+                  class="dropdown-item nav-item-color element-list"
+                  href="trombi"
+                  ><u>Trombinoscope - 2019 & 2020</u></a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-toggle="modal"
+                data-target="#modalContact"
+              >
+                <span class="element-menu">Contact</span>
+              </a>
+            </li>
+          </ul>
+          <form method="#" action="#" class="form-inline">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-special my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
     <script type="text/javascript" src="./jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="./bootstrap.js"></script>
   </body>
