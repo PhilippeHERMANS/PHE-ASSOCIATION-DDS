@@ -30,7 +30,8 @@ img {
 }
 
 .navbar-brand,
-h2 {
+h2,
+footer {
   font-family: "Playball", cursive, sans-serif;
 }
 
@@ -79,6 +80,14 @@ h2 {
   position: fixed;
   width: 100%;
   top: 5rem;
+}
+
+footer {
+  position: relative;
+  top: 12rem;
+  font-size: 1.5rem;
+  height: 11.5rem;
+  background: black;
 }
 
 .navbar {
@@ -140,7 +149,7 @@ aside img {
 .header-events {
   position: relative;
   background: black;
-  top: 9rem;
+  top: 8rem;
   border-radius: 15px;
   color: var(--dark-red);
   border-radius: 10px 10px;
