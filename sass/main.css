@@ -38,6 +38,14 @@ img {
   background: black;
 }
 
+.ariane {
+  z-index: 1000;
+  border: 0 0 10px 10px;
+  position: fixed;
+  width: 100%;
+  top: 5rem;
+}
+
 .navbar {
   background-color: black;
 }
