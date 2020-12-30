@@ -20,11 +20,17 @@ h6,
   text-align: center;
 }
 
+h2 {
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+
 img {
   padding: 10px 0;
 }
 
-.navbar-brand {
+.navbar-brand,
+h2 {
   font-family: "Playball", cursive, sans-serif;
 }
 
@@ -40,6 +46,21 @@ img {
   color: var(--dark-red);
   border: 1px solid var(--dark-red);
   background: black;
+}
+
+.p-nextstep {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+.special-border {
+  border: 3px solid var(--dark-red);
+}
+
+.special-border-bottom {
+  border-bottom: 3px solid var(--dark-red);
 }
 
 .ariane {
@@ -81,6 +102,31 @@ img {
   border: 1px solid lightgray;
 }
 
+aside div img {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.main-elem img {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+aside img {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+.main-elem img {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+aside img {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
 .header-index {
   background: url(../../images/background_dojo.jpg) no-repeat 50% 50%;
   background-size: cover;
@@ -102,6 +148,24 @@ img {
           transform-origin: 50% 50%;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+}
+
+.main-index,
+#link-equipe {
+  background: linear-gradient(45deg, #ddde0a 29%, rgba(207, 175, 29, 0.753939) 80%);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 20px 20px;
+}
+
+.main-elem {
+  padding: 20px 0;
+}
+
+aside h3 {
+  padding-top: 10px;
+  font-size: 1rem;
+  text-decoration: underline;
 }
 
 @-webkit-keyframes animationFrames {
