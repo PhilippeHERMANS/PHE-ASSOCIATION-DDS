@@ -22,3 +22,14 @@
 .special-border-bottom {
   border-bottom: 3px solid var(--dark-red);
 }
+
+.special-border-gray {
+  border: 10px solid white;
+}
+
+// ********SCALE UP / IMG TROMBINOSCOPE********
+
+.img-scaleup:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}

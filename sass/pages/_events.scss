@@ -6,3 +6,28 @@
   color: var(--dark-red);
   border-radius: 10px 10px;
 }
+
+.main-events {
+  position: relative;
+  top: 10rem;
+  background-image: linear-gradient(
+    to right bottom,
+    #0d0103,
+    #2c2327,
+    #4c414a,
+    #6b6370,
+    #898799,
+    #8a879a,
+    #8a879a,
+    #8a879b,
+    #6f6372,
+    #52414c,
+    #342328,
+    #180202
+  );
+}
+
+#trombi {
+  color: var(--dark-red);
+  text-decoration: underline;
+}
