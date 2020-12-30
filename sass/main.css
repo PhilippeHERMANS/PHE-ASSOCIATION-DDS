@@ -32,6 +32,10 @@ img {
   font-family: "Mukta", sans-serif;
 }
 
+.h1-index {
+  font-family: "Faster One", cursive, sans-serif;
+}
+
 .btn-special {
   color: var(--dark-red);
   border: 1px solid var(--dark-red);
@@ -75,6 +79,51 @@ img {
   width: 5rem;
   height: 4rem;
   border: 1px solid lightgray;
+}
+
+.header-index {
+  background: url(../../images/background_dojo.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  padding-top: 20vh;
+  margin-bottom: 40px;
+}
+
+.h1-index {
+  color: var(--dark-red);
+  font-size: 4rem;
+  -webkit-animation: animationFrames ease 4s;
+          animation: animationFrames ease 4s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform: scaleX(0) scaleY(0);
+            transform: scaleX(0) scaleY(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1) scaleY(1);
+            transform: scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes animationFrames {
+  0% {
+    -webkit-transform: scaleX(0) scaleY(0);
+            transform: scaleX(0) scaleY(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1) scaleY(1);
+            transform: scaleX(1) scaleY(1);
+  }
 }
 
 :root {

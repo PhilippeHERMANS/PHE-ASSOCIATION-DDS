@@ -1,0 +1,20 @@
+// ********* HEADER ********
+
+.header-index {
+  background: url(../../images/background_dojo.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  padding-top: 20vh;
+  margin-bottom: 40px;
+}
+
+.h1-index {
+  color: var(--dark-red);
+  font-size: 4rem;
+  animation: animationFrames ease 4s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards;
+}
