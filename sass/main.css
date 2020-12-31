@@ -83,10 +83,9 @@ footer {
 }
 
 footer {
-  position: relative;
-  top: 12rem;
+  margin-top: 3rem;
   font-size: 1.5rem;
-  height: 11.5rem;
+  height: 12.5rem;
   background: black;
 }
 
@@ -129,7 +128,7 @@ footer {
     font-size: 2rem;
   }
   #footer2 {
-    padding-top: 4rem;
+    padding-top: 7rem;
   }
 }
 
@@ -145,7 +144,7 @@ footer {
             transform: scale(0.8);
   }
   #footer2 {
-    padding-top: 4rem;
+    padding-top: 7rem;
   }
 }
 
@@ -174,7 +173,7 @@ footer {
     font-size: 3rem;
   }
   #footer2 {
-    padding-top: 4rem;
+    padding-top: 8rem;
   }
 }
 
@@ -193,17 +192,20 @@ footer {
 }
 
 .header-events {
-  position: relative;
   background: black;
-  top: 8rem;
-  border-radius: 15px;
+  height: 12rem;
+  border-radius: 0 0 15px;
   color: var(--dark-red);
   border-radius: 10px 10px;
 }
 
-.main-events {
+.header-events div {
   position: relative;
-  top: 10rem;
+  top: 8rem;
+}
+
+.main-events {
+  margin-top: 2rem;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#0d0103), color-stop(#2c2327), color-stop(#4c414a), color-stop(#6b6370), color-stop(#898799), color-stop(#8a879a), color-stop(#8a879a), color-stop(#8a879b), color-stop(#6f6372), color-stop(#52414c), color-stop(#342328), to(#180202));
   background-image: linear-gradient(to right bottom, #0d0103, #2c2327, #4c414a, #6b6370, #898799, #8a879a, #8a879a, #8a879b, #6f6372, #52414c, #342328, #180202);
 }

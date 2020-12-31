@@ -1,15 +1,17 @@
 .header-events {
-  position: relative;
   background: black;
-  top: 8rem;
-  border-radius: 15px;
+  height: 12rem;
+  border-radius: 0 0 15px;
   color: var(--dark-red);
   border-radius: 10px 10px;
+  div {
+    position: relative;
+    top: 8rem;
+  }
 }
 
 .main-events {
-  position: relative;
-  top: 10rem;
+  margin-top: 2rem;
   background-image: linear-gradient(
     to right bottom,
     #0d0103,
