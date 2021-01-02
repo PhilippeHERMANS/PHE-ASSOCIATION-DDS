@@ -41,12 +41,14 @@ html {
 .main-elem {
   img {
     transform: scale(0.75);
+    box-shadow: 5px 5px 5px black;
   }
 }
 
 aside {
   img {
     transform: scale(0.75);
+    box-shadow: 5px 0px 5px 5px red;
   }
   p {
     font-size: 1.5rem;

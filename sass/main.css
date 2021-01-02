@@ -38,11 +38,15 @@ html {
 .main-elem img {
   -webkit-transform: scale(0.75);
           transform: scale(0.75);
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
 }
 
 aside img {
   -webkit-transform: scale(0.75);
           transform: scale(0.75);
+  -webkit-box-shadow: 5px 0px 5px 5px red;
+          box-shadow: 5px 0px 5px 5px red;
 }
 
 aside p {
@@ -175,47 +179,72 @@ footer {
 .h1-index {
   color: var(--dark-red);
   font-size: 4rem;
-  -webkit-animation: animationFrames ease 4s;
-          animation: animationFrames ease 4s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  -webkit-animation: tracking-in-expand-fwd-top 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand-fwd-top 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .main-index,
 #link-equipe {
-  background: linear-gradient(45deg, #ddde0a 29%, rgba(207, 175, 29, 0.753939) 80%);
   border-radius: 10px;
   margin-bottom: 40px;
   padding: 20px 20px;
+  -webkit-animation: color-change-2x 20s linear infinite alternate both;
+  animation: color-change-2x 20s linear infinite alternate both;
 }
 
 .main-elem {
   padding: 20px 0;
 }
 
-@-webkit-keyframes animationFrames {
+@-webkit-keyframes tracking-in-expand-fwd-top {
   0% {
-    -webkit-transform: scaleX(0) scaleY(0);
-            transform: scaleX(0) scaleY(0);
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+    transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
   }
   100% {
-    -webkit-transform: scaleX(1) scaleY(1);
-            transform: scaleX(1) scaleY(1);
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
   }
 }
 
-@keyframes animationFrames {
+@keyframes tracking-in-expand-fwd-top {
   0% {
-    -webkit-transform: scaleX(0) scaleY(0);
-            transform: scaleX(0) scaleY(0);
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+    transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
   }
   100% {
-    -webkit-transform: scaleX(1) scaleY(1);
-            transform: scaleX(1) scaleY(1);
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
   }
 }
 
