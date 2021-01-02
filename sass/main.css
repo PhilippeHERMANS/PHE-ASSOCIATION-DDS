@@ -22,11 +22,31 @@ h6,
 
 h2 {
   text-decoration: underline;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
-img {
+h3 {
+  font-size: 2rem;
   padding: 10px 0;
+  text-decoration: underline;
+}
+
+html {
+  scroll-padding-top: 18rem;
+}
+
+.main-elem img {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+aside img {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+aside p {
+  font-size: 1.5rem;
 }
 
 .navbar-brand,
@@ -47,13 +67,6 @@ footer {
   color: var(--dark-red);
   border: 1px solid var(--dark-red);
   background: black;
-}
-
-.p-nextstep {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 6;
-  overflow: hidden;
 }
 
 .special-border {
@@ -120,77 +133,6 @@ footer {
   border: 1px solid lightgray;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  html {
-    scroll-padding-top: 14rem;
-  }
-  .navbar-brand {
-    font-size: 2rem;
-  }
-  #footer2 {
-    padding-top: 7rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  html {
-    scroll-padding-top: 14rem;
-  }
-  .navbar-brand {
-    font-size: 1.5rem;
-  }
-  aside div img {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-  #footer2 {
-    padding-top: 7rem;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-  html {
-    scroll-padding-top: 13rem;
-  }
-  .navbar-brand {
-    font-size: 2rem;
-  }
-  .main-elem img {
-    -webkit-transform: scale(0.75);
-            transform: scale(0.75);
-  }
-  aside img {
-    -webkit-transform: scale(0.75);
-            transform: scale(0.75);
-  }
-}
-
-@media (min-width: 1200px) {
-  html {
-    scroll-padding-top: 8rem;
-  }
-  .navbar-brand {
-    font-size: 3rem;
-  }
-  #footer2 {
-    padding-top: 8rem;
-  }
-}
-
-@media (max-width: 575px) {
-  html {
-    scroll-padding-top: 18rem;
-  }
-  .main-elem img {
-    -webkit-transform: scale(0.75);
-            transform: scale(0.75);
-  }
-  aside img {
-    -webkit-transform: scale(0.75);
-            transform: scale(0.75);
-  }
-}
-
 .header-events {
   background: black;
   height: 12rem;
@@ -250,12 +192,6 @@ footer {
   padding: 20px 0;
 }
 
-aside h3 {
-  padding-top: 10px;
-  font-size: 1rem;
-  text-decoration: underline;
-}
-
 @-webkit-keyframes animationFrames {
   0% {
     -webkit-transform: scaleX(0) scaleY(0);
@@ -278,6 +214,15 @@ aside h3 {
   }
 }
 
+.p-nextstep1,
+.p-nextstep2,
+.p-nextstep3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 6;
+}
+
 #firstname,
 #lastname,
 #mail,
@@ -292,5 +237,113 @@ aside h3 {
 
 :root {
   --dark-red: #8b0000;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  html {
+    scroll-padding-top: 14rem;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  #footer2 {
+    padding-top: 7rem;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  aside p {
+    font-size: 1rem;
+  }
+  .p-nextstep1,
+  .p-nextstep2,
+  .p-nextstep3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 15;
+    letter-spacing: 2px;
+  }
+  .main-elem img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+    scroll-padding-top: 14rem;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  aside img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  aside h3 {
+    font-style: bold;
+  }
+  #footer2 {
+    padding-top: 7rem;
+  }
+  .p-nextstep1,
+  .p-nextstep2,
+  .p-nextstep3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 10;
+    letter-spacing: 2px;
+  }
+  .main-elem img {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  html {
+    scroll-padding-top: 13rem;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  aside h3 {
+    font-style: bold;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    scroll-padding-top: 8rem;
+  }
+  .navbar-brand {
+    font-size: 3rem;
+  }
+  #footer2 {
+    padding-top: 8rem;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  aside p {
+    font-size: 1rem;
+  }
+  .p-nextstep1,
+  .p-nextstep2,
+  .p-nextstep3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 20;
+    letter-spacing: 2px;
+  }
+  .main-elem img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 /*# sourceMappingURL=main.css.map */

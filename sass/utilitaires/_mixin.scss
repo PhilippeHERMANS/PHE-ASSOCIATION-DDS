@@ -1,0 +1,16 @@
+// Allow to reduce the display of the <p> in index page/main
+
+@mixin nextstep($nbr) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: $nbr;
+}
+
+// CONFIG POUR XS/SM in standard
+
+.p-nextstep1,
+.p-nextstep2,
+.p-nextstep3 {
+  @include nextstep(6);
+}

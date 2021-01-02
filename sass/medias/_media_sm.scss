@@ -1,5 +1,5 @@
 // téléphone écran maxi et petites tablettes / BOOTSTRAP SM
-@media (min-width: 576px) and (max-width: 767px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   html {
     scroll-padding-top: 13rem;
   }
@@ -8,15 +8,9 @@
     font-size: 2rem;
   }
 
-  .main-elem {
-    img {
-      transform: scale(0.75);
-    }
-  }
-
   aside {
-    img {
-      transform: scale(0.75);
+    h3 {
+      font-style: bold;
     }
   }
 }

@@ -8,15 +8,16 @@
 @import "./layout/header";
 @import "./layout/nav";
 
+@import "./pages/events";
+@import "./pages/index";
+
+@import "./utilitaires/animations";
+@import "./utilitaires/mixin";
+@import "./utilitaires/modale";
+@import "./utilitaires/variables";
+
 @import "./medias/media_lg";
 @import "./medias/media_md";
 @import "./medias/media_sm";
 @import "./medias/media_xl";
 @import "./medias/media_xs";
-
-@import "./pages/events";
-@import "./pages/index";
-
-@import "./utilitaires/animations";
-@import "./utilitaires/modale";
-@import "./utilitaires/variables";

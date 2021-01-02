@@ -1,5 +1,5 @@
 // pc écrans mini-standar / BOOTSTRAP LG
-@media (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   html {
     scroll-padding-top: 14rem;
   }
@@ -10,5 +10,29 @@
 
   #footer2 {
     padding-top: 7rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  aside {
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .p-nextstep1,
+  .p-nextstep2,
+  .p-nextstep3 {
+    @include nextstep(15);
+    letter-spacing: 2px;
+  }
+
+  .main-elem {
+    img {
+      transform: scale(1.2);
+    }
   }
 }

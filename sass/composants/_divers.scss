@@ -6,14 +6,6 @@
   background: black;
 }
 
-// CUT THE <p> in MAIN INDEX
-.p-nextstep {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 6;
-  overflow: hidden;
-}
-
 // ****** BORDERS******
 .special-border {
   border: 3px solid var(--dark-red);

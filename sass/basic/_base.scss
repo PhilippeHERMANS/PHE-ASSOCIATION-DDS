@@ -25,9 +25,30 @@ h6,
 
 h2 {
   text-decoration: underline;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
-img {
+h3 {
+  font-size: 2rem;
   padding: 10px 0;
+  text-decoration: underline;
+}
+
+html {
+  scroll-padding-top: 18rem;
+}
+
+.main-elem {
+  img {
+    transform: scale(0.75);
+  }
+}
+
+aside {
+  img {
+    transform: scale(0.75);
+  }
+  p {
+    font-size: 1.5rem;
+  }
 }
