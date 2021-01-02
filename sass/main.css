@@ -69,6 +69,11 @@ footer {
   background: black;
 }
 
+.btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .special-border {
   border: 3px solid var(--dark-red);
 }
@@ -239,6 +244,29 @@ footer {
   --dark-red: #8b0000;
 }
 
+.modal-input {
+  background: url(../../images/asterisque-red.png) 98% center no-repeat;
+}
+
+.modal-input:focus:invalid {
+  background-image: none;
+}
+
+.modal-input:focus:valid {
+  background-image: url(../../images/asterisque-approbation.png);
+}
+
+.modal-input:valid {
+  background-image: url(../../images/asterisque-approbation.png);
+  background-color: lightskyblue;
+}
+
+label {
+  color: #0275d8;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   html {
     scroll-padding-top: 14rem;
@@ -344,6 +372,12 @@ footer {
   .main-elem img {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
+  }
+  .element-menu {
+    font-size: 1.5rem;
+  }
+  .ariane {
+    top: 6rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -5,6 +5,9 @@
   border: 1px solid var(--dark-red);
   background: black;
 }
+.btn:hover {
+  transform: scale(1.1);
+}
 
 // ****** BORDERS******
 .special-border {

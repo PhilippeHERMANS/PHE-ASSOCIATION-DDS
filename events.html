@@ -40,14 +40,18 @@
             </button>
           </div>
           <div class="modal-body">
-            <form action="#" method="POST" style="color: #0275d8">
+            <!-- back end needed to take/handle the informations -->
+            <form action="contact.php" method="POST">
               <div>
                 <label for="lastname">Nom :</label><br />
                 <input
                   type="text"
                   id="lastname"
+                  class="modal-input"
                   name="contact_name"
                   placeholder="Votre Nom"
+                  minlength="3"
+                  required
                 /><br />
               </div>
               <div>
@@ -56,8 +60,11 @@
                 <input
                   type="text"
                   id="firstname"
+                  class="modal-input"
                   name="contact_firstname"
                   placeholder="Votre Prénom"
+                  minlength="3"
+                  required
                 />
               </div>
               <div>
@@ -66,8 +73,11 @@
                 <input
                   type="email"
                   id="mail"
+                  class="modal-input"
                   name="contact_mail"
                   placeholder="Votre E-Mail"
+                  minlength="8"
+                  required
                 /><br />
               </div>
               <div>
@@ -76,8 +86,12 @@
                 <input
                   type="tel"
                   id="tel"
+                  class="modal-input"
+                  class="modal-input"
                   name="contact_tel"
                   placeholder="Votre N° de Tél"
+                  minlength="10"
+                  required
                 /><br />
               </div>
               <div>
@@ -85,15 +99,17 @@
                 <label for="msg">Message</label><br />
                 <textarea
                   id="msg"
+                  class="modal-input"
                   name="contact_message"
                   placeholder="Votre Message"
+                  required
                 ></textarea
                 ><br />
               </div>
               <button class="btn btn-outline-primary btn-lg" type="reset">
                 Reset
               </button>
-              <button class="btn btn-primary btn-lg" type="submit">
+              <button class="btn btn-primary btn-lg" type="submit" m>
                 Envoyer
               </button>
             </form>
@@ -221,17 +237,6 @@
               </a>
             </li>
           </ul>
-          <form method="#" action="#" class="form-inline">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-special my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </nav>
     </div>
