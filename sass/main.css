@@ -32,7 +32,7 @@ h3 {
 }
 
 html {
-  scroll-padding-top: 18rem;
+  scroll-padding-top: 14rem;
 }
 
 .main-elem img {
@@ -163,7 +163,12 @@ footer {
 #trombi {
   color: var(--dark-red);
   text-decoration: underline;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  background: black;
+  padding: 0 2rem;
+  border-radius: 15px 15px;
+  max-width: 90%;
+  border: 3px solid var(--dark-red);
 }
 
 .h4-oldevent {
@@ -206,6 +211,10 @@ footer {
 #slot4 {
   background: url(../../images/old_event4_800x600.png);
   background-position: top;
+}
+
+.h2-event {
+  color: var(--dark-red);
 }
 
 .header-index {
@@ -369,9 +378,6 @@ label {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  html {
-    scroll-padding-top: 14rem;
-  }
   .navbar-brand {
     font-size: 2rem;
   }
@@ -404,9 +410,6 @@ label {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  html {
-    scroll-padding-top: 14rem;
-  }
   .navbar-brand {
     font-size: 2rem;
   }
@@ -436,9 +439,6 @@ label {
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  html {
-    scroll-padding-top: 13rem;
-  }
   .navbar-brand {
     font-size: 2rem;
   }

@@ -33,7 +33,12 @@
 #trombi {
   color: var(--dark-red);
   text-decoration: underline;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  background: black;
+  padding: 0 2rem;
+  border-radius: 15px 15px;
+  max-width: 90%;
+  border: 3px solid var(--dark-red);
 }
 
 .h4-oldevent {
@@ -75,4 +80,8 @@
 #slot4 {
   background: url(../../images/old_event4_800x600.png);
   background-position: top;
+}
+
+.h2-event {
+  color: var(--dark-red);
 }
