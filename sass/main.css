@@ -95,12 +95,6 @@ footer {
   border: 10px solid white;
 }
 
-.img-scaleup:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  opacity: 0.8;
-}
-
 .ariane {
   z-index: 1000;
   border: 0 0 10px 10px;
