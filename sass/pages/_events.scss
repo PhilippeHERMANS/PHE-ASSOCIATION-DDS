@@ -32,4 +32,46 @@
 #trombi {
   color: var(--dark-red);
   text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.h4-oldevent {
+  color: goldenrod;
+  font-weight: bold;
+  margin-top: 1rem;
+  background: var(--dark-red);
+  border: 1px solid black;
+  box-shadow: 0 0 2px 2px black;
+  padding: 5px 0;
+}
+
+.slot {
+  height: 30vh;
+  border-radius: 10px;
+  border: 3px solid black;
+  &:hover {
+    -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715)
+      both;
+    animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  }
+}
+
+#slot1 {
+  background: url(../../images/old_event1-800x600.png);
+  background-position: center;
+}
+
+#slot2 {
+  background: url(../../images/old_event2_800x600.png);
+  background-position: center;
+}
+
+#slot3 {
+  background: url(../../images/old_event3_800x600.png);
+  background-position: center;
+}
+
+#slot4 {
+  background: url(../../images/old_event4_800x600.png);
+  background-position: top;
 }

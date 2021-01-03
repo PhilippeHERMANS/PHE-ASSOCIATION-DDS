@@ -32,6 +32,7 @@
   }
 }
 
+// ANIMATION INDEX PAGE / BACKGROUNG CHANGING
 @-webkit-keyframes color-change-2x {
   0% {
     background: #19dcea;
@@ -46,5 +47,46 @@
   }
   100% {
     background: #b22cff;
+  }
+}
+
+// ANIMATION EVENTS PAGE / OLD EVENTS / IMAGE
+@-webkit-keyframes shadow-pop-br {
+  0% {
+    -webkit-box-shadow: 0 0 #8b0000, 0 0#8b0000, 0 0#8b0000, 0 0 #8b0000,
+      0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000;
+    box-shadow: 0 0 #8b0000, 0 0#8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000,
+      0 0 #8b0000, 0 0#8b0000, 0 0 #8b0000;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: 1px 1px #8b0000, 2px 2px #8b0000, 3px 3px #8b0000,
+      4px 4px #8b0000, 5px 5px#8b0000, 6px 6px #8b0000, 7px 7px #8b0000,
+      8px 8px #8b0000;
+    box-shadow: 1px 1px #8b0000, 2px 2px #8b0000, 3px 3px #8b0000,
+      4px 4px #8b0000, 5px 5px #8b0000, 6px 6px #8b0000, 7px 7px #8b0000,
+      8px 8px#8b0000;
+    -webkit-transform: translateX(-8px) translateY(-8px);
+    transform: translateX(-8px) translateY(-8px);
+  }
+}
+@keyframes shadow-pop-br {
+  0% {
+    -webkit-box-shadow: 0 0 #8b0000, 0 0#8b0000, 0 0#8b0000, 0 0#8b0000,
+      0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000;
+    box-shadow: 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000,
+      0 0 #8b0000, 0 0#8b0000, 0 0 #8b0000;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: 1px 1px #8b0000, 2px 2px #8b0000, 3px 3px#8b0000,
+      4px 4px#8b0000, 5px 5px #8b0000, 6px 6px #8b0000, 7px 7px#8b0000,
+      8px 8px #8b0000;
+    box-shadow: 1px 1px #8b0000, 2px 2px#8b0000, 3px 3px#8b0000, 4px 4px #8b0000,
+      5px 5px #8b0000, 6px 6px #8b0000, 7px 7px #8b0000, 8px 8px #8b0000;
+    -webkit-transform: translateX(-8px) translateY(-8px);
+    transform: translateX(-8px) translateY(-8px);
   }
 }

@@ -53,6 +53,11 @@ aside p {
   font-size: 1.5rem;
 }
 
+h4 {
+  font-size: 1rem;
+  font-style: arial;
+}
+
 .navbar-brand,
 h2,
 footer {
@@ -164,6 +169,49 @@ footer {
 #trombi {
   color: var(--dark-red);
   text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.h4-oldevent {
+  color: goldenrod;
+  font-weight: bold;
+  margin-top: 1rem;
+  background: var(--dark-red);
+  border: 1px solid black;
+  -webkit-box-shadow: 0 0 2px 2px black;
+          box-shadow: 0 0 2px 2px black;
+  padding: 5px 0;
+}
+
+.slot {
+  height: 30vh;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.slot:hover {
+  -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+#slot1 {
+  background: url(../../images/old_event1-800x600.png);
+  background-position: center;
+}
+
+#slot2 {
+  background: url(../../images/old_event2_800x600.png);
+  background-position: center;
+}
+
+#slot3 {
+  background: url(../../images/old_event3_800x600.png);
+  background-position: center;
+}
+
+#slot4 {
+  background: url(../../images/old_event4_800x600.png);
+  background-position: top;
 }
 
 .header-index {
@@ -248,6 +296,36 @@ footer {
   }
 }
 
+@-webkit-keyframes shadow-pop-br {
+  0% {
+    -webkit-box-shadow: 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000;
+    box-shadow: 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: 1px 1px #8b0000, 2px 2px #8b0000, 3px 3px #8b0000, 4px 4px #8b0000, 5px 5px #8b0000, 6px 6px #8b0000, 7px 7px #8b0000, 8px 8px #8b0000;
+    box-shadow: 1px 1px #8b0000, 2px 2px #8b0000, 3px 3px #8b0000, 4px 4px #8b0000, 5px 5px #8b0000, 6px 6px #8b0000, 7px 7px #8b0000, 8px 8px #8b0000;
+    -webkit-transform: translateX(-8px) translateY(-8px);
+    transform: translateX(-8px) translateY(-8px);
+  }
+}
+
+@keyframes shadow-pop-br {
+  0% {
+    -webkit-box-shadow: 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000;
+    box-shadow: 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000, 0 0 #8b0000;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: 1px 1px #8b0000, 2px 2px #8b0000, 3px 3px #8b0000, 4px 4px #8b0000, 5px 5px #8b0000, 6px 6px #8b0000, 7px 7px #8b0000, 8px 8px #8b0000;
+    box-shadow: 1px 1px #8b0000, 2px 2px #8b0000, 3px 3px #8b0000, 4px 4px #8b0000, 5px 5px #8b0000, 6px 6px #8b0000, 7px 7px #8b0000, 8px 8px #8b0000;
+    -webkit-transform: translateX(-8px) translateY(-8px);
+    transform: translateX(-8px) translateY(-8px);
+  }
+}
+
 .p-nextstep1,
 .p-nextstep2,
 .p-nextstep3 {
@@ -326,6 +404,9 @@ label {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
+  h4 {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -370,6 +451,9 @@ label {
   aside h3 {
     font-style: bold;
   }
+  h4 {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -407,6 +491,16 @@ label {
   }
   .ariane {
     top: 6rem;
+  }
+  .header-events {
+    height: 13rem;
+  }
+  .header-events div {
+    position: relative;
+    top: 9rem;
+  }
+  h4 {
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
